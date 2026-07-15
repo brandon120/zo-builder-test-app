@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Last Stand">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <linearGradient id="ship" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="600" cy="315" r="220" fill="rgba(56, 189, 248, 0.08)" />
+  <path
+    d="M600 170 L760 250 V390 C760 470 600 530 600 530 C600 530 440 470 440 390 V250 Z"
+    fill="url(#shield)"
+    stroke="#7dd3fc"
+    stroke-width="8"
+  />
+  <path
+    d="M640 285 L720 335 L600 455 L480 355 L540 315 Z"
+    fill="url(#ship)"
+    stroke="#fef08a"
+    stroke-width="6"
+    stroke-linejoin="round"
+  />
+  <circle cx="720" cy="255" r="22" fill="#f87171" />
+  <text
+    x="600"
+    y="580"
+    text-anchor="middle"
+    fill="#e2e8f0"
+    font-family="ui-sans-serif, system-ui, sans-serif"
+    font-size="56"
+    font-weight="700"
+  >
+    Last Stand
+  </text>
+</svg>
